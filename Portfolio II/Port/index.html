@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="font/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Madimi+One&family=Poppins:ital,wght@0,300;0,500;1,100&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+ <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script> 
+ 
+
+ 
+ 
+</head>
+<body>
+<header class="header">
+<a href="" class="logo">Kavin Gowtham</a>
+<i class='bx bx-menu' style='color:#3186b2' id="menu-icon" onclick="toggleMenu()"  ></i>
+<nav id="desktop">
+
+	<a href="#about" style="--i:1" class="active" onclick="toggleMenu()">Home</a>
+		<a href="#about-more" style="--i:2" onclick="toggleMenu()">About</a>
+		<a href="#skills" style="--i:3" onclick="toggleMenu()">Skills</a>
+<a href="#Experience" style="--i:4" onclick="toggleMenu()">Experience</a>
+<a href="#portfolio" style="--i:5" onclick="toggleMenu()">Project</a>
+<a href="#contact"  style="--i:6" onclick="toggleMenu()" >Contact</a>
+			
+			
+			
+		
+	</nav>
+
+
+</header>
+<!-- ------------------about---------- -->
+
+	<section class="about" id="about">
+		
+		<div class="about-content">
+ <div><img src="image/13.png" alt="Kavin Gowtham"class="profile-pic"></div>
+			
+			<h3>Hello, It's Me</h3>
+			<h1>Kavin Gowtham</h1>
+			<h3>And I'm a <span class="text"></span></h3>
+			<p>Front End developer with an experience for over 3 years</p>
+			<div class="ar">
+				<a href="" style="--i:7"><i class='bx bxl-facebook' ></i>
+				<a href="" style="--i:8"><i class='bx bxl-whatsapp' ></i></a>
+				<a href="https://linkedin.com" style="--i:9"><i class='bx bxl-linkedin' ></i></a>
+				<a href="" style="--i:10"><i class='bx bxl-instagram' ></i></a>
+			</div>
+			<a href="#about-more" class="btn-box">More Info</a>
+		</div>
+		
+	</section>
+	<script src="js/main.js"></script>
+
+
+
+	<section class="about-more" id="about-more">
+		<div class="about-more-img">
+			<img src="image/3.jpg" alt="Kavin Gowtham" class="profile-pic1">
+		</div>
+		<div class="about-more-text">
+			<h2 >About <span>Me</span></h2>
+			<h4>Front End developer</h4>
+			<p>"Dedicated Front End developer with 3 years of experience in project leadership and web application development. Proficient in assessing client needs, planning projects from conception to delivery, and ensuring user-centric design for mobile banking and commerce. Skilled in W3C standards-based XHTML/CSS layout, with a focus on efficient site structure management. Known for adaptability in fast-paced environments, strong multitasking abilities, and timely project completion. Excellent communication, problem-solving, and interpersonal skills round out my profile for effective collaboration and project success."</p>
+			<button class="btn-box" onclick="window.open('./asset/KAVIN GOWTHAM E.pdf') ">Download Resume</button>
+		</div>
+	</section>
+  
+ 
+	<!-- ------------------service------------- -->
+
+	<section>
+		<div class="service" id="service">
+			<div class="container">
+				<h1 class="sub-title">My <span>Services</span></h1>
+				<div class="service-type">
+					<div>
+						<i class='bx bx-code' style='color:#3186b2'  ></i>
+						<h2>Front End Development</h2>
+						<p id="text">"Passionate front-end developer with a strong foundation in web technologies and user interface design.<span id="moreText"> With [X years] of experience in crafting engaging and responsive web experiences, I thrive on turning complex ideas into intuitive and visually appealing interfaces. Proficient in HTML, CSS, and JavaScript, I specialize in creating seamless user interactions and optimizing performance across various browsers and devices.
+
+							My expertise extends to modern frameworks and libraries such as React, , where I leverage their capabilities to build scalable and maintainable front-end solutions. I have a keen eye for design and usability, collaborating closely with designers and stakeholders to bring their vision to life while adhering to best practices and accessibility standards.
+							
+							Driven by a curiosity for emerging technologies and industry trends, I continuously seek to expand my skills and stay updated with the latest advancements in front-end development. With excellent problem-solving abilities and a strong attention to detail, I am committed to delivering high-quality code and exceptional user experiences in every project I undertake."
+						</span></p>
+						<button id="show" class="btn-box-read" onclick="show()">Read More</button>
+					</div>
+					<div>
+						<i class='bx bx-crop' style='color:#3186b2' ></i>
+						<h2>Web Design</h2>
+						<p id="text1">Creative and detail-oriented web designer with a passion for crafting visually stunning and user-friendly digital experiences.<span id="moreText1"> With [X years] of experience in the field, I specialize in translating client visions into captivating designs that resonate with target audiences. Proficient in industry-standard design tools such as Adobe Creative Suite, I have a keen eye for aesthetics and a deep understanding of user experience principles.
+
+							My design approach is rooted in collaboration and iteration, working closely with clients and stakeholders to refine concepts and deliver polished final products. From wireframing and prototyping to responsive design implementation, I ensure consistency and coherence across all platforms and devices.
+							
+							Driven by a commitment to continuous learning, I stay updated on emerging trends and technologies in web design, seeking inspiration from diverse sources to push creative boundaries and deliver innovative solutions. With a strong foundation in design theory and a focus on usability and accessibility, I strive to create impactful digital experiences that leave a lasting impression."
+						</span></p>
+						<button id="show1" class="btn-box-read" onclick="show1()">Read More</button>
+					</div>
+					<div>
+						<i class='bx bxl-apple' style='color:#3186b2' ></i>
+						<h2>Photo Editing</h2>
+						<p id="text2">"Passionate and skilled photo editor with [X years] of experience in creating captivating visual content.<span id="moreText2"> Proficient in industry-leading editing software such as Adobe Photoshop and Lightroom, I have a keen eye for detail and a knack for enhancing images to perfection.
+
+							My expertise encompasses a wide range of editing techniques, including color correction, retouching, compositing, and special effects. Whether it's enhancing portraits, product photography, or landscapes, I excel in bringing out the best in every image while maintaining authenticity and visual appeal.
+							
+							With a strong understanding of design principles and composition, I approach each project with creativity and precision, striving to exceed client expectations and deliver outstanding results. Collaborative and adaptable, I enjoy working closely with clients and photographers to understand their vision and ensure that the final product aligns with their objectives.
+							
+							Driven by a passion for storytelling through visuals, I continuously seek to expand my skills and stay updated on the latest trends and technologies in the field. With a commitment to excellence and a dedication to craftsmanship, I am confident in my ability to elevate any project and deliver stunning imagery that resonates with audiences."
+						</span></p>
+						<button id="show2" class="btn-box-read" onclick="show2()">Read More</button>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+
+
+
+	<!-- ---------------------skills----- -->
+<h1 class="sub-title">My <span>Skills</span></h1>
+	<section class="skills"  id="skills" >
+		
+		<div class="container1" id="skills">
+			<h1 class="heading1">Technical Skills</h1>
+			<div class="Technical-bars ">
+				<div class="bar"><i class='bx bxl-html5' style='color:#fb6f31'  ></i>
+					<div class="info">
+						<span>HTML</span>
+					</div>
+					<div class="progress-line html"> 
+                            <span></span>
+                        
+
+					</div>
+				</div>
+				<div class="bar"><i class='bx bxl-css3' style='color:#157af7'  ></i>
+					<div class="info">
+						<span>CSS</span>
+					</div>
+					<div class="progress-line CSS"> 
+                            <span></span>
+                        
+
+					</div>
+				</div>
+				<div class="bar"><i class='bx bxl-bootstrap' style='color:#895bf7'  ></i>
+					<div class="info">
+						<span>BootStrap</span>
+					</div>
+					<div class="progress-line bootstrap"> 
+                            <span></span>
+                        
+
+					</div>
+				</div>
+
+				<div class="bar"><i class='bx bxl-javascript' style='color:#f1ec14'  ></i>
+					<div class="info">
+						<span>Java Script</span>
+					</div>
+					<div class="progress-line javascript"> 
+                            <span></span>
+                        
+
+					</div>
+				</div>
+
+				<div class="bar"><i class='bx bxl-react' style='color:#29e8f7'  ></i>
+					<div class="info">
+						<span>React js</span>
+					</div>
+					<div class="progress-line react"> 
+                            <span></span>
+                        
+
+					</div>
+				</div>
+				
+			</div>
+
+			</div>
+			
+
+
+
+
+		</div>
+
+
+
+
+
+		<!-- -------------proff---------------- -->
+		<div class="container1">
+			<h1 class="heading1">Professional Skills</h1>
+			<div class="radial-bars">
+		<div class="radial-bar">
+            <svg x="0px" y="0px" viewBox= "0 0 200 200"> 
+				<circle class="progress-bar" cx="100" cy="100" r="80"></circle> 
+				<circle class="path path-1" cx="100" cy="100" r="80"></circle> 
+			</svg>
+			<div class="percent">90%</div>
+			<div class="creativity">Creativity</div>
+
+        </div>
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox= "0 0 200 200"> 
+				<circle class="progress-bar" cx="100" cy="100" r="80"></circle> 
+				<circle class="path path-2" cx="100" cy="100" r="80"></circle> 
+			</svg>
+			<div class="percent">85%</div>
+			<div class="creativity">Communication</div>
+
+        </div>
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox= "0 0 200 200"> 
+				<circle class="progress-bar" cx="100" cy="100" r="80"></circle> 
+				<circle class="path path-3" cx="100" cy="100" r="80"></circle> 
+			</svg>
+			<div class="percent">80%</div>
+			<div class="creativity">Team Work</div>
+
+        </div>
+        <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox= "0 0 200 200"> 
+				<circle class="progress-bar" cx="100" cy="100" r="80"></circle> 
+				<circle class="path path-4" cx="100" cy="100" r="80"></circle> 
+			</svg>
+			<div class="percent"><p>83%</p>  </div>
+			<div class="creativity">Problem Solving</div>
+
+        </div>  
+
+		</div>
+	
+	
+		
+			
+		</div>
+
+	</section>
+
+  
+
+	<!-- -----------------------------portfolio--- -->
+	
+	<section>
+		<div class="Portfolio" id="portfolio">
+			<div class="main-text">
+				<h2>Latest <span>Project</span></h2>
+				<div class="portfolio-content">
+ 					<div class="row">
+						<img src="image/4.jpg" alt="1">
+						<div class="layer">
+							<h5>UI/UX Design</h5>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dum</p>
+							<a href=""><i class="bx bx-link-external" style="color: #3186b2;"></i></a>
+
+						</div>
+
+					</div>
+					<div class="row">
+						<img src="image/5.jpg" alt="2">
+						<div class="layer">
+							<h5>UI/UX Design</h5>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dum</p>
+							<a href=""><i class="bx bx-link-external" style="color: #3186b2;"></i></a>
+
+						</div>
+
+					</div>
+					<div class="row">
+						<img src="image/2.jpg" alt="3">
+						<div class="layer">
+							<h5>UI/UX Design</h5>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dum</p>
+							<a href=""><i class="bx bx-link-external" style="color: #3186b2;"></i></a>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		
+	</section>
+
+
+	<!-- ------contact---- -->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me</span></h2>
+			<h4>Lets work Together</h4>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dum</p>
+			<div class="contact-list">
+				<li><i class='bx bx-send' style='color:#3186b2' ></i> kavingoutham026@gmail.com</li>
+				<li><i class='bx bxs-phone-call' style='color:#3186b2' ></i> 7708075869</li>
+			</div>
+			<div class="cont-icons">
+				<a href=""><i class='bx bxl-facebook-circle' style='color:#3186b2' ></i></a>
+				<a href=""><i class='bx bxl-instagram' style='color:#3186b2' ></i></i></a>
+				<a href=""><i class='bx bxl-linkedin' style='color:#3186b2' ></i></a>
+				
+
+			</div>
+
+		</div>
+<div class="cont-form">
+	<form onsubmit="emailSend(); reset(); return false;">
+		<input type="name" placeholder="Enter Your Name" name="name" id="name" required  >
+		<input type="email" placeholder="Enter Your Mail" name="email" id="email" required>
+		
+
+		<input type="text" placeholder="Enter Your Subject" name="subject" id="subject">
+		<textarea type="text" placeholder="Enter Your Message" name="area" id="area" cols="" rows="" ></textarea>
+		<button  id="showt2" class="btn-box-read"   type="submit"  >Submit</button>
+
+	</form>
+
+</div>
+	</section>
+
+	<!-- -----footer-- -->
+	<div class="footer">
+		<p>Copyright & copy; 2024 by Kavin Gowtham | All Rights Resevered.</p>
+
+	</div>
+	<a href="" class="arrow"><i class='bx bx-up-arrow-alt'   ></i> </a>
+</body>
+</html>
